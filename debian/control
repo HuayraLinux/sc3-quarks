@@ -2,29 +2,20 @@ Source: sc3-quarks
 Section: sound
 Priority: optional
 Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
-Build-Depends:
- debhelper (>= 9.0.0),
+Build-Depends: debhelper (>= 9.0.0),
 Standards-Version: 3.9.3
-X-Python-Version: >= 3
-Homepage: https://github.com/Qirky/FoxDot/
-Vcs-Git: https://github.com/HuayraLinux/pkg-foxdot.git
-Vcs-Browser: https://github.com/HuayraLinux/pkg-foxdot
+Homepage:  https://github.com/HuayraLinux/sc3-quarks.git
+Vcs-Git: https://github.com/HuayraLinux/sc3-quarks.git
+Vcs-Browser: https://github.com/HuayraLinux/sc3-quarks.git
 
 Package: sc3-quarks
 Architecture: all
-Depends: ${shlibs:Depends}, ${python3:Depends}, supercollider (>= 3.7)
+Depends: ${shlibs:Depends}, supercollider (>= 3.7)
 Description: Pack of community Quarks for SuperCollider 3
  A Quark is a package of SuperCollider code containing classes, extension
  methods, documentation and server UGen plugins.
  .
  This package add the follow extensions to SupperCollider:
-  - BatLib
-  - FoxDotQuark
-Description[es]: Paquete de Quarks de la comunidad para SuperCollider 3
- Un Quark es un paquete de código de SuperCollider que contiene clases, 
- extensiones, métodos y documentación para el servidor
- . 
- Este paquete agrega las siguientes extensiones a SuperCollider:
   - BatLib
   - FoxDotQuark
  
