@@ -8,9 +8,11 @@ Homepage:  https://github.com/HuayraLinux/sc3-quarks.git
 Vcs-Git: https://github.com/HuayraLinux/sc3-quarks.git
 Vcs-Browser: https://github.com/HuayraLinux/sc3-quarks.git
 
-Package: sc3-quarks
+Package: sc3-foxdot-quarks
 Architecture: all
 Depends: ${shlibs:Depends}, supercollider (>= 3.7)
+Conflicts: sc3-quarks (<= 1.1)
+Replaces: sc3-quarks (<= 1.1)
 Description: Pack of community Quarks for SuperCollider 3
  A Quark is a package of SuperCollider code containing classes, extension
  methods, documentation and server UGen plugins.

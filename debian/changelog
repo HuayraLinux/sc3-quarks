@@ -1,3 +1,9 @@
+sc3-quarks (1.1) unstable; urgency=medium
+
+  * rename del paquete sc3-quarks => sc3-foxdot-quarks
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 23 Sep 2019 14:49:31 -0300
+
 sc3-quarks (1.0) unstable; urgency=medium
 
   * Initial release. 
